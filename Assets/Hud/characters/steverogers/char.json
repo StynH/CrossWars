@@ -1,0 +1,9 @@
+{
+	"Name" : "Steve Rogers",
+	"Description" : "",
+	"ATK" : 40,
+	"DEF" : 30,
+	"SPD" : 20,
+	"LCK" : 10,
+	"HP" : 35
+}

@@ -1,0 +1,219 @@
+{
+	"background" : "fortress",
+	"description" : "After the defeat of surrounding enemies, the heroes enter the battle worn fortress. Steve mentioned somebody was waiting, will they find that person?",
+	"parts" : [
+		{
+			"speaker" : "steverogers",
+			"listener" : "none",
+			"text" : "Sombra? SOMBRA?!",
+			"active" : "speaker",
+			"changemusic" : "Fortress of the Forgotten Ones.wav"
+		},
+		{
+			"speaker" : "steverogers",
+			"listener" : "tonystark",
+			"text" : "Where in the world could she be...?",
+			"active" : "speaker"
+		},
+		{
+			"speaker" : "player",
+			"listener" : "steverogers",
+			"text" : "Sombra?",
+			"active" : "speaker"
+		},
+		{
+			"speaker" : "player",
+			"listener" : "steverogers",
+			"text" : "Ah yes, Sombra is our technician.",
+			"active" : "listener"
+		},
+		{
+			"speaker" : "player",
+			"listener" : "steverogers",
+			"text" : "And she's still somewhere in here? This place looks utterly abandoned...",
+			"active" : "speaker"
+		},
+		{
+			"speaker" : "player",
+			"listener" : "tonystark",
+			"text" : "THIS fortress is our home! It has the most advanced tech! Well, some floors...",
+			"active" : "listener"
+		},
+		{
+			"speaker" : "steverogers",
+			"listener" : "none",
+			"text" : "Sombraaaa!",
+			"active" : "speaker"
+		},
+		{
+			"speaker" : "sombra",
+			"listener" : "none",
+			"text" : "What the hell is going on here?",
+			"active" : "speaker"
+		},
+		{
+			"speaker" : "sombra",
+			"listener" : "steverogers",
+			"text" : "Sombra? Oh my god I'm so glad to see you! Were you hiding or something?",
+			"active" : "listener"
+		},		
+		{
+			"speaker" : "sombra",
+			"listener" : "steverogers",
+			"text" : "Hiding from who? You? Logan?",
+			"active" : "speaker"
+		},
+		{
+			"speaker" : "sombra",
+			"listener" : "steverogers",
+			"text" : "From the enemy that was occupying this fortress...?",
+			"active" : "listener"
+		},
+		{
+			"speaker" : "sombra",
+			"listener" : "steverogers",
+			"text" : "You....didn't know about the Apophis being here?",
+			"active" : "listener"
+		},
+		{
+			"speaker" : "sombra",
+			"listener" : "steverogers",
+			"text" : "Apophis was here? Huh, no didn't notice a thing. I was up here doing my research and my usual things.",
+			"active" : "speaker"
+		},
+		{
+			"speaker" : "sombra",
+			"listener" : "steverogers",
+			"text" : "That's... typical of you. But there are more alarming matters. Sombra.",
+			"active" : "listener"
+		},
+		{
+			"speaker" : "sombra",
+			"listener" : "steverogers",
+			"text" : "Do you remember anything from before 4 days ago?",
+			"active" : "listener",
+			"changemusic" : "Blank Spots.wav"
+		},
+		{
+			"speaker" : "sombra",
+			"listener" : "steverogers",
+			"text" : "Huh....Hmmmm...now you mention it...No.",
+			"active" : "speaker"
+		},
+		{
+			"speaker" : "sombra",
+			"listener" : "tonystark",
+			"text" : "Well you see, we don't know either! And our new friend here, he doesn't as well. His memory is even shorter.",
+			"active" : "listener"
+		},
+		{
+			"speaker" : "sombra",
+			"listener" : "tonystark",
+			"text" : "Let's see, we were summoned to the crossworld... We found this fortress and fought some enemies. Then... completely blank until 4 days ago.",
+			"active" : "speaker"
+		},
+		{
+			"speaker" : "sombra",
+			"listener" : "steverogers",
+			"text" : "There seems to some kind of force at work. A powerful one. Extremely powerful.",
+			"active" : "listener"
+		},
+		{
+			"speaker" : "sombra",
+			"listener" : "steverogers",
+			"text" : "Something or someone has created this void in our memories!",
+			"active" : "listener"
+		},
+		{
+			"speaker" : "sombra",
+			"listener" : "steverogers",
+			"text" : "Not only that but we somehow lost the rest of our squad. We have no idea where they are.",
+			"active" : "listener"
+		},
+		{
+			"speaker" : "sombra",
+			"listener" : "steverogers",
+			"text" : "Oh, Logan, Jeniffer, Peter?",
+			"active" : "speaker"
+		},
+		{
+			"speaker" : "sombra",
+			"listener" : "tonystark",
+			"text" : "Yep, and the rest.",
+			"active" : "listener"
+		},
+		{
+			"speaker" : "sombra",
+			"listener" : "player",
+			"text" : "Oh, and might I ask who this is?",
+			"active" : "speaker",
+			"changemusic" : "Fortress of the Forgotten Ones.wav"
+		},
+		{
+			"speaker" : "sombra",
+			"listener" : "tonystark",
+			"text" : "Oh his name is $player, he's our newest member.",
+			"active" : "listener"
+		},
+		{
+			"speaker" : "sombra",
+			"listener" : "player",
+			"text" : "Pleasure to meet ya, $player!",
+			"active" : "speaker"
+		},
+		{
+			"speaker" : "sombra",
+			"listener" : "player",
+			"text" : "Pleasures all mine, Sombra.",
+			"active" : "listener"
+		},
+		{
+			"speaker" : "sombra",
+			"listener" : "steverogers",
+			"text" : "I think it's only fair to wait with this enigma and resume to normal schedule.",
+			"active" : "listener"
+		},
+		{
+			"speaker" : "sombra",
+			"listener" : "steverogers",
+			"text" : "I'm sure there are still enemies in the forest, behind the fortress.",
+			"active" : "listener"
+		},
+		{
+			"speaker" : "sombra",
+			"listener" : "steverogers",
+			"text" : "You know me cap, I ain't goin out there, ever. I am busy enough as is.",
+			"active" : "speaker"
+		},
+		{
+			"speaker" : "sombra",
+			"listener" : "steverogers",
+			"text" : "Yes, well, I wasn't expecting that of you either.",
+			"active" : "listener"
+		},
+		{
+			"speaker" : "sombra",
+			"listener" : "steverogers",
+			"text" : "Good. Well I'm off boys, I have alot of renovating to do.",
+			"active" : "speaker"
+		},
+		{
+			"speaker" : "tonystark",
+			"listener" : "steverogers",
+			"text" : "Tony, go check the inventory if there is anything left.",
+			"active" : "listener"
+		},
+		{
+			"speaker" : "tonystark",
+			"listener" : "steverogers",
+			"text" : "On it.",
+			"active" : "speaker"
+		},
+		{
+			"speaker" : "player",
+			"listener" : "steverogers",
+			"text" : "$player, I want you to follow me. I'll show you around the fortress.",
+			"active" : "listener"
+		}
+	]
+}

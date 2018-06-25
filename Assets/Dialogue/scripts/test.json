@@ -1,0 +1,60 @@
+{
+	"background" : "grass",
+	"description" : "After a long and harsh struggle with Onslaught's army, Tony Stark, Steve Rogers and Player find themselfs in a pinch. Will they push forwards to the capital or fall back to regroup? For now, only time can tell.",
+	"parts" : [
+		{
+			"speaker" : "brian",
+			"listener" : "joe",
+			"text" : "There is absolutely no way.",
+			"active" : "listener"
+		},
+		{
+			"speaker" : "brian",
+			"listener" : "joe",
+			"text" : "...?",
+			"active" : "speaker"
+		},
+		{
+			"speaker" : "brian",
+			"listener" : "joe",
+			"text" : "Don't you remember me?! It's me Brian, Joe!\nWe've known eachother for ages!",
+			"active" : "listener"
+		},
+		{
+			"speaker" : "brian",
+			"listener" : "joe",
+			"text" : "Eventhough you know my name, I do not know you.\nIn fact, I don't remember anything before coming here.",
+			"active" : "speaker"
+		},
+		{
+			"speaker" : "brian",
+			"listener" : "joe",
+			"text" : "How can you not remember me?!\nWe've been through so much together.\nThis feels like a bad dream, a cruel nightmare.",
+			"active" : "listener"
+		},
+		{
+			"speaker" : "brian",
+			"listener" : "joe",
+			"text" : "And why is that.",
+			"active" : "speaker"
+		},
+		{
+			"speaker" : "brian",
+			"listener" : "joe",
+			"text" : "Either you are a phantom, a mind trick, or just a hallucination.\nBecause I...I...",
+			"active" : "listener"
+		},
+		{
+			"speaker" : "brian",
+			"listener" : "joe",
+			"text" : "I was there when you died.",
+			"active" : "listener"
+		},
+		{
+			"speaker" : "brian",
+			"listener" : "joe",
+			"text" : "Heh, then it's weird that I feel just fine.",
+			"active" : "speaker"
+		}
+	]
+}

@@ -1,0 +1,6 @@
+﻿  Map.cpp
+  LevelScreen.cpp
+  Generating Code...
+c:\users\styn\documents\visual studio 2015\projects\cross wars vs onslaught\cross wars vs onslaught\map.cpp(105): warning C4715: 'Map::GetFreeSpawnzone': not all control paths return a value
+  Cross Wars vs Onslaught.vcxproj -> C:\Users\Styn\Documents\Visual Studio 2015\Projects\Cross Wars vs Onslaught\Debug\Cross Wars vs Onslaught.exe
+  Cross Wars vs Onslaught.vcxproj -> C:\Users\Styn\Documents\Visual Studio 2015\Projects\Cross Wars vs Onslaught\Debug\Cross Wars vs Onslaught.pdb (Partial PDB)

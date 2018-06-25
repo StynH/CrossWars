@@ -1,0 +1,9 @@
+{
+	"Name" : "Tony Stark",
+	"Description" : "",
+	"ATK" : 20,
+	"DEF" : 40,
+	"SPD" : 30,
+	"LCK" : 40,
+	"HP" : 25
+}

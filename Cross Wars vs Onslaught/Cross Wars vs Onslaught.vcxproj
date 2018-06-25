@@ -1,0 +1,317 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{792CB76C-72D1-41BB-91E8-629E0850E170}</ProjectGuid>
+    <RootNamespace>CrossWarsvsOnslaught</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>$(SolutionDir)Includes\JSON;$(SolutionDir)Includes\LuaBridge;$(SolutionDir)Includes\LUA\include;$(SolutionDir)Includes\SFML-2.3.2\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)Includes\boost_1_61_0\stage\lib;$(SolutionDir)Includes\LUA;$(SolutionDir)Includes\SFML-2.3.2\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IncludePath>$(SolutionDir)Includes\JSON;$(SolutionDir)Includes\LuaBridge;$(SolutionDir)Includes\LUA\include;$(SolutionDir)Includes\SFML-2.3.2\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)Includes\boost_1_61_0\stage\lib;$(SolutionDir)Includes\LUA;$(SolutionDir)Includes\SFML-2.3.2\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(SolutionDir)Includes\boost_1_61_0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalUsingDirectories>
+      </AdditionalUsingDirectories>
+      <DisableSpecificWarnings>4996;4244;4018;4305;4067</DisableSpecificWarnings>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>sfml-graphics-d.lib;sfml-system-d.lib;sfml-window-d.lib;sfml-audio-d.lib;lua53.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <AdditionalLibraryDirectories>$(SolutionDir)Includes\boost_1_61_0\libs;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(SolutionDir)Includes\boost_1_61_0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalUsingDirectories>
+      </AdditionalUsingDirectories>
+      <DisableSpecificWarnings>4996;4244;4018;4305;4067</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>sfml-graphics.lib;sfml-system.lib;sfml-window.lib;sfml-audio.lib;lua53.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <AdditionalLibraryDirectories>$(SolutionDir)Includes\boost_1_61_0\libs;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="AddItem.cpp" />
+    <ClCompile Include="AddUnit.cpp" />
+    <ClCompile Include="AI.cpp" />
+    <ClCompile Include="ArenaScreen.cpp" />
+    <ClCompile Include="ArenaUnitSelectScreen.cpp" />
+    <ClCompile Include="ArmyScreen.cpp" />
+    <ClCompile Include="AStar.cpp" />
+    <ClCompile Include="BarracksScreen.cpp" />
+    <ClCompile Include="Battle.cpp" />
+    <ClCompile Include="BattleCharScreen.cpp" />
+    <ClCompile Include="BattleDialogueOverlay.cpp" />
+    <ClCompile Include="BattleOutcome.cpp" />
+    <ClCompile Include="BattleOutcomeScreen.cpp" />
+    <ClCompile Include="BattleScreen.cpp" />
+    <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="CameraManager.cpp" />
+    <ClCompile Include="Chapter.cpp" />
+    <ClCompile Include="ChapterScreen.cpp" />
+    <ClCompile Include="Character.cpp" />
+    <ClCompile Include="CharScreen.cpp" />
+    <ClCompile Include="Dialogue.cpp" />
+    <ClCompile Include="DialogueOverlay.cpp" />
+    <ClCompile Include="EventLogger.cpp" />
+    <ClCompile Include="FlagManager.cpp" />
+    <ClCompile Include="FloodFill.cpp" />
+    <ClCompile Include="Folders.cpp" />
+    <ClCompile Include="GameoverScreen.cpp" />
+    <ClCompile Include="GameScreenOverlay.cpp" />
+    <ClCompile Include="InnerMight.cpp" />
+    <ClCompile Include="Intermission.cpp" />
+    <ClCompile Include="IntermissionScreen.cpp" />
+    <ClCompile Include="ItemActionMenu.cpp" />
+    <ClCompile Include="ItemCreationScreen.cpp" />
+    <ClCompile Include="ItemTradeOverlay.cpp" />
+    <ClCompile Include="KillAllObjective.cpp" />
+    <ClCompile Include="KillBossObjective.cpp" />
+    <ClCompile Include="MenuScreen.cpp" />
+    <ClCompile Include="MissionScreen.cpp" />
+    <ClCompile Include="MusicPlayer.cpp" />
+    <ClCompile Include="Node.cpp" />
+    <ClCompile Include="PlayerManager.cpp" />
+    <ClCompile Include="RecieveScreen.cpp" />
+    <ClCompile Include="ShowChapter.cpp" />
+    <ClCompile Include="StateMachine.cpp" />
+    <ClCompile Include="StorageScreen.cpp" />
+    <ClCompile Include="Trigger.cpp" />
+    <ClCompile Include="TypeWriter.cpp" />
+    <ClCompile Include="UIButton.cpp" />
+    <ClCompile Include="UltimateLeader.cpp" />
+    <ClCompile Include="UnitManager.cpp" />
+    <ClCompile Include="Core.cpp" />
+    <ClCompile Include="Cursor.cpp" />
+    <ClCompile Include="DialogueScreen.cpp" />
+    <ClCompile Include="Entity.cpp" />
+    <ClCompile Include="GameScreen.cpp" />
+    <ClCompile Include="GameTime.cpp" />
+    <ClCompile Include="Item.cpp" />
+    <ClCompile Include="ItemManager.cpp" />
+    <ClCompile Include="LevelScreen.cpp" />
+    <ClCompile Include="LuaManager.cpp" />
+    <ClCompile Include="Map.cpp" />
+    <ClCompile Include="MapManager.cpp" />
+    <ClCompile Include="ResourceManager.cpp" />
+    <ClCompile Include="ScreenManager.cpp" />
+    <ClCompile Include="Singleton.h" />
+    <ClCompile Include="TextContainer.cpp" />
+    <ClCompile Include="TextSanitizer.cpp" />
+    <ClCompile Include="TextureManager.cpp" />
+    <ClCompile Include="Tile.cpp" />
+    <ClCompile Include="Unit.cpp" />
+    <ClCompile Include="UnitClass.cpp" />
+    <ClCompile Include="UnitMenuOverlay.cpp" />
+    <ClCompile Include="UnitOverviewScreen.cpp" />
+    <ClCompile Include="UnitSelectScreen.cpp" />
+    <ClCompile Include="UnitSkill.cpp" />
+    <ClCompile Include="UnlockMission.cpp" />
+    <ClCompile Include="Useable.cpp" />
+    <ClCompile Include="Weapon.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AddItem.h" />
+    <ClInclude Include="AddUnit.h" />
+    <ClInclude Include="AI.h" />
+    <ClInclude Include="ArenaScreen.h" />
+    <ClInclude Include="ArenaUnitSelectScreen.h" />
+    <ClInclude Include="ArmyScreen.h" />
+    <ClInclude Include="AStar.h" />
+    <ClInclude Include="BarracksScreen.h" />
+    <ClInclude Include="Battle.h" />
+    <ClInclude Include="BattleCharScreen.h" />
+    <ClInclude Include="BattleDialogueOverlay.h" />
+    <ClInclude Include="BattleHelper.h" />
+    <ClInclude Include="BattleOutcome.h" />
+    <ClInclude Include="BattleOutcomeScreen.h" />
+    <ClInclude Include="BattleScreen.h" />
+    <ClInclude Include="BattleTransition.h" />
+    <ClInclude Include="Camera.h" />
+    <ClInclude Include="CameraManager.h" />
+    <ClInclude Include="Chapter.h" />
+    <ClInclude Include="ChapterScreen.h" />
+    <ClInclude Include="Character.h" />
+    <ClInclude Include="CharScreen.h" />
+    <ClInclude Include="CRTV.h" />
+    <ClInclude Include="Dialogue.h" />
+    <ClInclude Include="DialogueOverlay.h" />
+    <ClInclude Include="Event.h" />
+    <ClInclude Include="EventLogger.h" />
+    <ClInclude Include="FlagManager.h" />
+    <ClInclude Include="FloodFill.h" />
+    <ClInclude Include="Folders.h" />
+    <ClInclude Include="CharacterSprite.h" />
+    <ClInclude Include="GameFlag.h" />
+    <ClInclude Include="GameoverScreen.h" />
+    <ClInclude Include="GameScreenOverlay.h" />
+    <ClInclude Include="GameState.h" />
+    <ClInclude Include="BurnAway.h" />
+    <ClInclude Include="Heap.h" />
+    <ClInclude Include="InnerMight.h" />
+    <ClInclude Include="Intermission.h" />
+    <ClInclude Include="IntermissionScreen.h" />
+    <ClInclude Include="ItemActionMenu.h" />
+    <ClInclude Include="ItemCreationScreen.h" />
+    <ClInclude Include="ItemTradeOverlay.h" />
+    <ClInclude Include="KillAllObjective.h" />
+    <ClInclude Include="KillBossObjective.h" />
+    <ClInclude Include="MapHelper.h" />
+    <ClInclude Include="MapObjective.h" />
+    <ClInclude Include="MathHelper.h" />
+    <ClInclude Include="MenuScreen.h" />
+    <ClInclude Include="MindBend.h" />
+    <ClInclude Include="MissionScreen.h" />
+    <ClInclude Include="MovingSprite.h" />
+    <ClInclude Include="MusicPlayer.h" />
+    <ClInclude Include="Node.h" />
+    <ClInclude Include="PlayerManager.h" />
+    <ClInclude Include="RecieveScreen.h" />
+    <ClInclude Include="Shader.h" />
+    <ClInclude Include="ShockWave.h" />
+    <ClInclude Include="ShowChapter.h" />
+    <ClInclude Include="Spawnpoint.h" />
+    <ClInclude Include="StateMachine.h" />
+    <ClInclude Include="StorageScreen.h" />
+    <ClInclude Include="Swapvector.h" />
+    <ClInclude Include="Trigger.h" />
+    <ClInclude Include="TurnIndicator.h" />
+    <ClInclude Include="TypeWriter.h" />
+    <ClInclude Include="UIButton.h" />
+    <ClInclude Include="UltimateLeader.h" />
+    <ClInclude Include="UnitManager.h" />
+    <ClInclude Include="Cursor.h" />
+    <ClInclude Include="DialogueScreen.h" />
+    <ClInclude Include="Entity.h" />
+    <ClInclude Include="GameScreen.h" />
+    <ClInclude Include="GameTime.h" />
+    <ClInclude Include="Include.h" />
+    <ClInclude Include="Item.h" />
+    <ClInclude Include="ItemManager.h" />
+    <ClInclude Include="LevelScreen.h" />
+    <ClInclude Include="LuaManager.h" />
+    <ClInclude Include="Map.h" />
+    <ClInclude Include="MapManager.h" />
+    <ClInclude Include="ResourceManager.h" />
+    <ClInclude Include="ScreenManager.h" />
+    <ClInclude Include="TextContainer.h" />
+    <ClInclude Include="TextSanitizer.h" />
+    <ClInclude Include="TextureManager.h" />
+    <ClInclude Include="Tile.h" />
+    <ClInclude Include="Unit.h" />
+    <ClInclude Include="UnitClass.h" />
+    <ClInclude Include="UnitMenuOverlay.h" />
+    <ClInclude Include="UnitOverviewScreen.h" />
+    <ClInclude Include="UnitSelectScreen.h" />
+    <ClInclude Include="UnitSkill.h" />
+    <ClInclude Include="UnlockMission.h" />
+    <ClInclude Include="Useable.h" />
+    <ClInclude Include="Weapon.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

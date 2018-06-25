@@ -1,0 +1,213 @@
+Initializing Lua Functions(LoadFunction)
+Loading Texture: ..\Assets\Hud\itemsheet.png
+Loading Texture: ..\Assets\Hud\skillsheet.png
+Loading Texture: ..\Assets\Battle\battleplatform\arena.png
+Loading Texture: ..\Assets\Battle\backgrounds\arena.png
+Loading Texture: ..\Assets\Battle\battleplatform\black.png
+Loading Texture: ..\Assets\Battle\backgrounds\black.png
+Loading Texture: ..\Assets\Battle\battleplatform\grass.png
+Loading Texture: ..\Assets\Battle\backgrounds\grass.png
+Loading Texture: ..\Assets\Battle\battleplatform\white.png
+Loading Texture: ..\Assets\Battle\backgrounds\white.png
+Loading Texture: ..\Assets\Menu\black.png
+Loading Weapon LUA: 0x000001
+Getting Item Texture at 0/1
+Loading Weapon LUA: 0x000002
+Getting Item Texture at 14/10
+Loading Weapon LUA: 0x000003
+Getting Item Texture at 15/10
+Loading Weapon LUA: 0x0000A1
+Getting Item Texture at 7/13
+Loading Weapon LUA: 0x0000A2
+Getting Item Texture at 5/13
+Loading Weapon LUA: 0x0000A3
+Getting Item Texture at 4/13
+Loading Weapon LUA: 0x0000A4
+Getting Item Texture at 6/13
+Loading Weapon LUA: 0x0000DJ
+Getting Item Texture at 6/1
+Loading Weapon LUA: 0x0000DR
+Getting Item Texture at 7/4
+Loading Weapon LUA: 0x000CR1
+Getting Item Texture at 0/0
+Loading Weapon LUA: 0x000PA1
+Getting Item Texture at 12/10
+Loading Weapon LUA: 0x000SHG
+Getting Item Texture at 8/13
+Loading Useable LUA: 0x000HO1
+Getting Item Texture at 7/11
+Loading Useable LUA: 0x000HO2
+Getting Item Texture at 9/11
+Loading Useable LUA: 0x000HO3
+Getting Item Texture at 8/11
+Loading Useable LUA: 0x000TI2
+Getting Item Texture at 14/10
+Loading Texture: ..\Assets\Battle\mapicons\playerclasses.png
+Loading Texture: ..\Assets\Battle\mapicons\enemyclasses.png
+Loading Texture: ..\Assets\Battle\mapicons\partnerclasses.png
+Loading Texture: ..\Assets\Hud\chardisplay\healthbar.png
+Loading Character: agent
+Loading Texture: ..\Assets\Hud\characters\agent\char.png
+Loading Texture: ..\Assets\Hud\characters\agent\battle.png
+Loading Character: asvoria
+Loading Texture: ..\Assets\Hud\characters\asvoria\char.png
+Loading Texture: ..\Assets\Hud\characters\asvoria\battle.png
+Loading Character: brian
+Loading Texture: ..\Assets\Hud\characters\brian\char.png
+Loading Texture: ..\Assets\Hud\characters\brian\battle.png
+Loading Character: diana
+Loading Texture: ..\Assets\Hud\characters\diana\char.png
+Loading Texture: ..\Assets\Hud\characters\diana\battle.png
+Loading Character: dusk
+Loading Texture: ..\Assets\Hud\characters\dusk\char.png
+Loading Texture: ..\Assets\Hud\characters\dusk\battle.png
+Loading Character: hologram
+Loading Texture: ..\Assets\Hud\characters\hologram\char.png
+Loading Texture: ..\Assets\Hud\characters\hologram\battle.png
+Loading Character: joe
+Loading Texture: ..\Assets\Hud\characters\joe\char.png
+Loading Texture: ..\Assets\Hud\characters\joe\battle.png
+Loading Character: onslaught
+Loading Texture: ..\Assets\Hud\characters\onslaught\char.png
+Loading Texture: ..\Assets\Hud\characters\onslaught\battle.png
+Loading Character: player
+Loading Texture: ..\Assets\Hud\characters\player\char.png
+Loading Texture: ..\Assets\Hud\characters\player\battle.png
+Loading Character: sentinel
+Loading Texture: ..\Assets\Hud\characters\sentinel\char.png
+Loading Texture: ..\Assets\Hud\characters\sentinel\battle.png
+Loading Character: sentinelx
+Loading Texture: ..\Assets\Hud\characters\sentinelx\char.png
+Loading Texture: ..\Assets\Hud\characters\sentinelx\battle.png
+Loading Character: shehulk
+Loading Texture: ..\Assets\Hud\characters\shehulk\char.png
+Loading Texture: ..\Assets\Hud\characters\shehulk\battle.png
+Loading Character: sombra
+Loading Texture: ..\Assets\Hud\characters\sombra\char.png
+Loading Texture: ..\Assets\Hud\characters\sombra\battle.png
+Loading Character: steverogers
+Loading Texture: ..\Assets\Hud\characters\steverogers\char.png
+Loading Texture: ..\Assets\Hud\characters\steverogers\battle.png
+Loading Character: tonystark
+Loading Texture: ..\Assets\Hud\characters\tonystark\char.png
+Loading Texture: ..\Assets\Hud\characters\tonystark\battle.png
+Loading Character: unknown
+Loading Texture: ..\Assets\Hud\characters\unknown\char.png
+Loading Texture: ..\Assets\Hud\characters\unknown\battle.png
+Loading Texture: ..\Assets\Menu\mainmenu.png
+Loading Texture: ..\Assets\Menu\buttonglow.png
+Loading Texture: ..\Assets\Menu\mainmenupointer.png
+Loading Texture: ..\Assets\Menu\menubg.png
+Loading Texture: ..\Assets\Menu\menuglow.png
+Loading Texture: ..\Assets\Menu\menu//first.png
+Loading Texture: ..\Assets\Menu\menu//second.png
+Loading Texture: ..\Assets\Menu\menu//third.png
+Loading Texture: ..\Assets\Menu\gameover.png
+Loading Texture: ..\Assets\Hud\battledisplay\dialogue.png
+Loading Texture: ..\Assets\Hud\battledisplay\bg.png
+Loading Texture: ..\Assets\Hud\battledisplay\supportattack.png
+Loading Texture: ..\Assets\Hud\battledisplay\supportdefend.png
+Loading Texture: ..\Assets\Battle\critmiss.png
+Loading Texture: ..\Assets\Battle\hpshow.png
+Loading Texture: ..\Assets\Battle\expgain.png
+Loading Texture: ..\Assets\Battle\skillup.png
+Loading Texture: ..\Assets\Battle\levelup.png
+Loading Texture: ..\Assets\Battle\expscreen.png
+Loading Texture: ..\Assets\Battle\vignette.png
+Loading Texture: ..\Assets\Menu\noise.png
+Loading Texture: ..\Assets\Dialogue\box.png
+Loading Texture: ..\Assets\Dialogue\overlay.png
+Loading Texture: ..\Assets\Dialogue\gradient.png
+Loading Texture: ..\Assets\Dialogue\lower.png
+Loading Texture: ..\Assets\Hud\chardisplay\hud.png
+Loading Texture: ..\Assets\Hud\chardisplay\skilldisplay.png
+Loading Texture: ..\Assets\Hud\chardisplay\inv_slot.png
+Loading Texture: ..\Assets\Battle\mapicons\selector.png
+Loading Texture: ..\Assets\Battle\mapicons\selector.png
+Loading Texture: ..\Assets\Battle\mapicons\selector.png
+Loading Texture: ..\Assets\Menu\unitaction.png
+Loading Texture: ..\Assets\Battle\mapicons//menuselector.png
+Loading Texture: ..\Assets\Hud\chardisplay//inv_bg.png
+Loading Texture: ..\Assets\Hud\chardisplay//arrows.png
+Loading Texture: ..\Assets\Hud\chardisplay\inv_slot.png
+Loading Texture: ..\Assets\Hud\chardisplay\inv_slot_selected.png
+Loading Texture: ..\Assets\Hud\overview\itemcursor.png
+Loading Texture: ..\Assets\Battle\battlepredictionoverlay.png
+Loading Texture: ..\Assets\Levels\visualiser.png
+Loading Texture: ..\Assets\Levels\victory.png
+Loading Texture: ..\Assets\Hud\turns.png
+Loading Texture: ..\Assets\Battle\mapicons\boss.png
+Loading Texture: ..\Assets\Hud\chardisplay\hud.png
+Loading Texture: ..\Assets\Hud\chardisplay\skilldisplay.png
+Loading Texture: ..\Assets\Hud\chardisplay\inv_slot.png
+Loading Texture: ..\Assets\Hud\storage\itemmenu.png
+Loading Texture: ..\Assets\Battle\mapicons//menuselector.png
+Loading Texture: ..\Assets\Hud\chardisplay\unitselect.png
+Loading Texture: ..\Assets\Hud\chardisplay\unitselectcursor.png
+Loading Texture: ..\Assets\Hud\chardisplay\unit_slot.png
+Loading Texture: ..\Assets\Hud\overview\charcursor.png
+Loading Texture: ..\Assets\Hud\overview\itemcursor.png
+Loading Texture: ..\Assets\Hud\overview\skillcursor.png
+Loading Texture: ..\Assets\Hud\overview\charimagecontainer.png
+Loading Texture: ..\Assets\Hud\overview\infobox.png
+Loading Texture: ..\Assets\Menu\barracksmenu.png
+Loading Texture: ..\Assets\Menu\barracks.png
+Loading Texture: ..\Assets\Battle\mapicons//menuselector.png
+Loading Texture: ..\Assets\Menu\missionname.png
+Loading Texture: ..\Assets\Menu\army.png
+Loading Texture: ..\Assets\Menu\unitcontainer.png
+Loading Texture: ..\Assets\Menu\unitcontaineractive.png
+Loading Texture: ..\Assets\Menu\unitcursor.png
+Loading Texture: ..\Assets\Menu\vignette.png
+Loading Texture: ..\Assets\Menu\scrollbuttons.png
+Loading Texture: ..\Assets\Hud\chardisplay\unitselect.png
+Loading Texture: ..\Assets\Hud\chardisplay\unitselectcursor.png
+Loading Texture: ..\Assets\Hud\chardisplay\unit_slot.png
+Loading Texture: ..\Assets\Hud\chardisplay//inv_bg.png
+Loading Texture: ..\Assets\Hud\chardisplay//arrows.png
+Loading Texture: ..\Assets\Hud\chardisplay\inv_slot.png
+Loading Texture: ..\Assets\Hud\chardisplay\inv_slot_selected.png
+Loading Texture: ..\Assets\Hud\overview\itemcursor.png
+Loading Texture: ..\Assets\Menu\mission.png
+Loading Texture: ..\Assets\Menu\missionContainer.png
+Loading Texture: ..\Assets\Hud\itemcreation\background.png
+Loading Texture: ..\Assets\Hud\itemcreation\container.png
+Loading Texture: ..\Assets\Hud\itemcreation\itemcursor.png
+Loading Texture: ..\Assets\Menu\scrollbuttons.png
+Loading Texture: ..\Assets\Hud\itemcreation\speechbubble.png
+Loading Texture: ..\Assets\Menu\chapter.png
+Loading Texture: ..\Assets\Hud\recieve\itemcontainer.png
+Loading Texture: ..\Assets\Hud\recieve\unitcontainer.png
+Loading Texture: ..\Assets\Hud\storage\itemmenu.png
+Loading Texture: ..\Assets\Battle\mapicons//menuselector.png
+Loading Texture: ..\Assets\Hud\chardisplay\unitselect.png
+Loading Texture: ..\Assets\Hud\chardisplay\unitselectcursor.png
+Loading Texture: ..\Assets\Hud\chardisplay\unit_slot.png
+Loading Texture: ..\Assets\Hud\chardisplay\unitselect.png
+Loading Texture: ..\Assets\Hud\chardisplay\unitselectcursor.png
+Loading Texture: ..\Assets\Hud\chardisplay\unit_slot.png
+Loading Texture: ..\Assets\Hud\storage\background.png
+Loading Texture: ..\Assets\Hud\storage\container.png
+Loading Texture: ..\Assets\Hud\itemcreation\itemcursor.png
+Loading Texture: ..\Assets\Menu\arena.png
+Loading Texture: ..\Assets\arena\unitcounter.png
+Loading Texture: ..\Assets\arena\difficulty.png
+Loading Texture: ..\Assets\arena\difficultyglow.png
+Loading Texture: ..\Assets\arena\cursor.png
+Loading Texture: ..\Assets\arena\selectunits.png
+Loading Texture: ..\Assets\arena\arenabutton.png
+Loading Texture: ..\Assets\Menu\army.png
+Loading Texture: ..\Assets\Menu\unitcontainer.png
+Loading Texture: ..\Assets\Menu\unitcontaineractive.png
+Loading Texture: ..\Assets\Menu\unitcursor.png
+Loading Texture: ..\Assets\Menu\scrollbuttons.png
+Getting Skill Texture at 4/0
+Getting Skill Texture at 1/0
+Loading Texture: ..\Assets\Hud\itemcreation\item_slot.png
+Loading Texture: ..\Assets\Hud\itemcreation\item_slot.png
+Loading Texture: ..\Assets\Hud\itemcreation\item_slot.png
+Loading Texture: ..\Assets\Hud\itemcreation\item_slot.png
+Game Succesfully loaded: save.txt
+Loading Chapter LUA: chapter2
+Loading Texture: ..\Assets\Levels\seehearbelieve\map.png
+Loading Map: ..\Assets\Levels\seehearbelieve\data.json

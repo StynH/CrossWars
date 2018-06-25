@@ -1,0 +1,144 @@
+{
+	"background" : "quarters",
+	"description" : "$player has been asked by Steve to meet him in HQ. There he awaits further instructions.",
+	"parts" : [
+		{
+			"speaker" : "player",
+			"listener" : "steverogers",
+			"text" : "Alright $player, welcome to the HQ.",
+			"active" : "listener"
+		},
+		{
+			"speaker" : "player",
+			"listener" : "steverogers",
+			"text" : "I brought you here because we have something to discuss.",
+			"active" : "listener"
+		},
+		{
+			"speaker" : "player",
+			"listener" : "steverogers",
+			"text" : "Allow me to explain the members their roles around here.",
+			"active" : "listener"
+		},
+		{
+			"speaker" : "player",
+			"listener" : "steverogers",
+			"text" : "Sombra currently handles the creation of items from energy. Tony handles inventory.",
+			"active" : "listener"
+		},
+		{
+			"speaker" : "player",
+			"listener" : "steverogers",
+			"text" : "I oversee our readiness and training. We currently miss a position.",
+			"active" : "listener"
+		},
+		{
+			"speaker" : "player",
+			"listener" : "steverogers",
+			"text" : "A strategist. Logan used to do it but he dissapeared. I was thinking of putting you in that position.",
+			"active" : "listener"
+		},
+		{
+			"speaker" : "player",
+			"listener" : "steverogers",
+			"text" : "You want me to be a...strategist?",
+			"active" : "speaker"
+		},
+		{
+			"speaker" : "player",
+			"listener" : "steverogers",
+			"text" : "Basically what that means is that you guide us through our missions. You tell who is going on the mission and tell them what to do on the field.",
+			"active" : "listener"
+		},
+		{
+			"speaker" : "player",
+			"listener" : "steverogers",
+			"text" : "Are you sure you want to entrust that position to a complete stranger?",
+			"active" : "speaker"
+		},
+		{
+			"speaker" : "player",
+			"listener" : "steverogers",
+			"text" : "I just, have a feeling you will make a great strategist.",
+			"active" : "listener"
+		},
+		{
+			"speaker" : "player",
+			"listener" : "steverogers",
+			"text" : "Well, you know, I'll try my best. I guess it can't be too hard.",
+			"active" : "speaker"
+		},
+		{
+			"speaker" : "player",
+			"listener" : "steverogers",
+			"text" : "That's good to hear $player! That means you must manage some things as well. I'll inform you how.",
+			"active" : "listener"
+		},
+		{
+			"speaker" : "player",
+			"listener" : "steverogers",
+			"text" : "We have the Barracks, there you go to to select units to go on missions.",
+			"active" : "listener"
+		},
+		{
+			"speaker" : "player",
+			"listener" : "steverogers",
+			"text" : "We have the Inventory, we can store and retrieve items from there. If Tony is paying attention.",
+			"active" : "listener"
+		},
+		{
+			"speaker" : "player",
+			"listener" : "steverogers",
+			"text" : "You can go to Sombra for Item Creation. There you can exchange energy we gain from battling enemies for Items we have blueprints of.",
+			"active" : "listener"
+		},
+		{
+			"speaker" : "player",
+			"listener" : "steverogers",
+			"text" : "We have discovered that certain items cannot be created, like my shield, we call these worldbound items.",
+			"active" : "listener"
+		},
+		{
+			"speaker" : "player",
+			"listener" : "steverogers",
+			"text" : "Also, if you need to train, we have the Arena. There we can simulate battles in varying difficulties. The holograms are fake but their attacks are real.",
+			"active" : "listener"
+		},
+		{
+			"speaker" : "player",
+			"listener" : "steverogers",
+			"text" : "You can come to me anytime to see if there are any upcoming Missions. You can tell me which mission you want to engage on first.",
+			"active" : "listener"
+		},
+		{
+			"speaker" : "player",
+			"listener" : "steverogers",
+			"text" : "Be sure to Save your progress in our logbooks, we need to keep record of past missions.",
+			"active" : "listener"
+		},
+		{
+			"speaker" : "player",
+			"listener" : "steverogers",
+			"text" : "Any questions?",
+			"active" : "listener"
+		},
+		{
+			"speaker" : "player",
+			"listener" : "steverogers",
+			"text" : "I eh, that's alot to take in. I'll do my best to remember it.",
+			"active" : "speaker"
+		},
+		{
+			"speaker" : "player",
+			"listener" : "steverogers",
+			"text" : "I'm sure you can do it, after some time It will be standard procedure.",
+			"active" : "listener"
+		},
+		{
+			"speaker" : "player",
+			"listener" : "steverogers",
+			"text" : "So that's all for now $player, let's get going!",
+			"active" : "listener"
+		}
+	]
+}

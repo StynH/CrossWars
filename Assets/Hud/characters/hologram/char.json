@@ -1,0 +1,9 @@
+{
+	"Name" : "Hologram",
+	"Description" : "Created by the Arena-System, its powers can range from any level.\nIt seems to be bound by nothing but its programmed limit and even though it's a hologram,\nit's attack is physically feellable.",
+	"ATK" : 40,
+	"DEF" : 40,
+	"SPD" : 40,
+	"LCK" : 40,
+	"HP" : 40
+}

@@ -1,0 +1,9 @@
+{
+	"Name" : "",
+	"Description" : "Wandering out of the forest, seemingly forgotten who or where he was, $player has joined up with Tony and Steve to recruit new members in an epic quest to defeat Onslaught.\n\nWith an unbreakable spirit, $player and his comrades face of against a dark and powerfull evil.",
+	"ATK" : 25,
+	"DEF" : 25,
+	"SPD" : 25,
+	"LCK" : 25,
+	"HP" : 25
+}

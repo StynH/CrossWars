@@ -1,0 +1,12 @@
+{
+	"parts" : [
+		{
+			"speaker" : "sentinel",
+			"text" : "ANY INTRUDERS WILL BE DESTROYED."
+		},
+		{
+			"speaker" : "tonystark",
+			"text" : "You're the only one who will be getting fried!"
+		}
+	]
+}

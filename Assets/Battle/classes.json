@@ -1,0 +1,362 @@
+{
+	"AMAZON" : {
+		"ATK" : 10,
+		"DEF" : 25,
+		"SPD" : 5,
+		"LCK" : 5,
+		"HP" : 20,
+		"NAME" : "Amazon",
+		"SPRITE" : {
+			"x" : 0,
+			"y" : 0
+		}
+	},
+	"ARCHER" : {
+		"ATK" : 10,
+		"DEF" : 10,
+		"SPD" : 20,
+		"LCK" : 10,
+		"HP" : 20,
+		"NAME" : "Archer",
+		"SPRITE" : {
+			"x" : 1,
+			"y" : 0
+		}
+	},
+	"BERZERKER" : {
+		"ATK" : 30,
+		"DEF" : 20,
+		"SPD" : 5,
+		"LCK" : 0,
+		"HP" : 15,
+		"NAME" : "Berzerker",
+		"SPRITE" : {
+			"x" : 2,
+			"y" : 0
+		}
+	},
+	"CYBORG" : {
+		"ATK" : 15,
+		"DEF" : 15,
+		"SPD" : 5,
+		"LCK" : 0,
+		"HP" : 15,
+		"NAME" : "Cyborg",
+		"SPRITE" : {
+			"x" : 3,
+			"y" : 0
+		}
+	},
+	"DWELLER" : {
+		"ATK" : 10,
+		"DEF" : 10,
+		"SPD" : 20,
+		"LCK" : 15,
+		"HP" : 15,
+		"NAME" : "Dweller",
+		"SPRITE" : {
+			"x" : 4,
+			"y" : 0
+		}
+	},
+	"ENFORCER" : {
+		"ATK" : 15,
+		"DEF" : 5,
+		"SPD" : 15,
+		"LCK" : 5,
+		"HP" : 20,
+		"NAME" : "Enforcer",
+		"SPRITE" : {
+			"x" : 0,
+			"y" : 1
+		}
+	},
+	"FIGHTER" : {
+		"ATK" : 20,
+		"DEF" : 10,
+		"SPD" : 5,
+		"LCK" : 5,
+		"HP" : 15,
+		"NAME" : "Fighter",
+		"SPRITE" : {
+			"x" : 4,
+			"y" : 2
+		}
+	},
+	"GODMUTANT" : {
+		"ATK" : 30,
+		"DEF" : 30,
+		"SPD" : 20,
+		"LCK" : 20,
+		"HP" : 30,
+		"NAME" : "God Mutant",
+		"SPRITE" : {
+			"x" : 1,
+			"y" : 1
+		}
+	},
+	"HERO" :{
+		"ATK" : 25,
+		"DEF" : 10,
+		"SPD" : 10,
+		"LCK" : 0,
+		"HP" : 25,
+		"NAME" : "Hero",
+		"SPRITE" : {
+			"x" : 5,
+			"y" : 2
+		}
+	},
+	"IRONMAN" : {
+		"ATK" : 20,
+		"DEF" : 20,
+		"SPD" : 20,
+		"LCK" : 5,
+		"HP" : 5,
+		"NAME" : "Iron Man",
+		"SPRITE" : {
+			"x" : 2,
+			"y" : 1
+		}
+	},
+	"LEVITATOR" : {
+		"ATK" : 20,
+		"DEF" : 15,
+		"SPD" : 10,
+		"LCK" : 20,
+		"HP" : 5,
+		"NAME" : "Levitator",
+		"SPRITE" : {
+			"x" : 3,
+			"y" : 1
+		}
+	},
+	"MAGICIAN" : {
+		"ATK" : 5,
+		"DEF" : 5,
+		"SPD" : 15,
+		"LCK" : 30,
+		"HP" : 20,
+		"NAME" : "Magician",
+		"SPRITE" : {
+			"x" : 4,
+			"y" : 1
+		}
+	},
+	"MERCENARY" : {
+		"ATK" : 20,
+		"DEF" : 10,
+		"SPD" : 15,
+		"LCK" : 0,
+		"HP" : 15,
+		"NAME" : "Mercenary",
+		"SPRITE" : {
+			"x" : 0,
+			"y" : 2
+		}
+	},
+	"MUTANT" : {
+		"ATK" : 15,
+		"DEF" : 15,
+		"SPD" : 10,
+		"LCK" : 10,
+		"HP" : 15,
+		"NAME" : "Mutant",
+		"SPRITE" : {
+			"x" : 1,
+			"y" : 2
+		}
+	},
+	"MYSTIQUE" : {
+		"ATK" : 15,
+		"DEF" : 10,
+		"SPD" : 0,
+		"LCK" : 30,
+		"HP" : 15,
+		"NAME" : "Mystique",
+		"SPRITE" : {
+			"x" : 2,
+			"y" : 2
+		}
+	},
+	"PSYCHE" : {
+		"ATK" : 25,
+		"DEF" : 5,
+		"SPD" : 10,
+		"LCK" : 25,
+		"HP" : 20,
+		"NAME" : "Psyche",
+		"SPRITE" : {
+			"x" : 3,
+			"y" : 2
+		}
+	},
+	"SENTINEL" : {
+		"ATK" : 30,
+		"DEF" : 30,
+		"SPD" : 0,
+		"LCK" : 0,
+		"HP" : 10,
+		"NAME" : "Sentinel",
+		"SPRITE" : {
+			"x" : 0,
+			"y" : 3
+		}
+	},
+	"SOLDIER" : {
+		"ATK" : 20,
+		"DEF" : 20,
+		"SPD" : 15,
+		"LCK" : 0,
+		"HP" : 10,
+		"NAME" : "Soldier",
+		"SPRITE" : {
+			"x" : 1,
+			"y" : 3
+		}
+	},
+	"SPECTRE" : {
+		"ATK" : 10,
+		"DEF" : 0,
+		"SPD" : 20,
+		"LCK" : 25,
+		"HP" : 15,
+		"NAME" : "Spectre",
+		"SPRITE" : {
+			"x" : 2,
+			"y" : 3
+		}
+	},
+	"SPEEDFORCE" : {
+		"ATK" : 10,
+		"DEF" : 5,
+		"SPD" : 30,
+		"LCK" : 25,
+		"HP" : 5,
+		"NAME" : "Speedforce User",
+		"SPRITE" : {
+			"x" : 3,
+			"y" : 3
+		}
+	},
+	"SUPERIORMUTANT" : {
+		"ATK" : 30,
+		"DEF" : 10,
+		"SPD" : 10,
+		"LCK" : 30,
+		"HP" : 30,
+		"NAME" : "Superior Mutant",
+		"SPRITE" : {
+			"x" : 3,
+			"y" : 4
+		}
+	},
+	"SUPREMESORCERER" : {
+		"ATK" : 30,
+		"DEF" : 5,
+		"SPD" : 5,
+		"LCK" : 15,
+		"HP" : 30,
+		"NAME" : "Supreme Sorcerer",
+		"SPRITE" : {
+			"x" : 0,
+			"y" : 4
+		}
+	},
+	"SWORDMASTER" : {
+		"ATK" : 25,
+		"DEF" : 5,
+		"SPD" : 15,
+		"LCK" : 0,
+		"HP" : 15,
+		"NAME" : "Swordmaster",
+		"SPRITE" : {
+			"x" : 1,
+			"y" : 4
+		}
+	},
+	"ULTRON" : {
+		"ATK" : 30,
+		"DEF" : 0,
+		"SPD" : 5,
+		"LCK" : 0,
+		"HP" : 30,
+		"NAME" : "Ultron Unit",
+		"SPRITE" : {
+			"x" : 2,
+			"y" : 4
+		}
+	},
+	"VALKYRIE" : {
+		"ATK" : 20,
+		"DEF" : 5,
+		"SPD" : 20,
+		"LCK" : 5,
+		"HP" : 15,
+		"NAME" : "Valkyrie",
+		"SPRITE" : {
+			"x" : 3,
+			"y" : 4
+		}
+	},
+	"WIELDER" : {
+		"ATK" : 20,
+		"DEF" : 15,
+		"SPD" : 10,
+		"LCK" : 5,
+		"HP" : 15,
+		"NAME" : "Soul Wielder",
+		"SPRITE" : {
+			"x" : 5,
+			"y" : 1
+		}
+	},
+	"WARLOCK" : {
+		"ATK" : 5,
+		"DEF" : 30,
+		"SPD" : 5,
+		"LCK" : 30,
+		"HP" : 20,
+		"NAME" : "Warlock",
+		"SPRITE" : {
+			"x" : 4,
+			"y" : 4
+		}
+	},
+	"WATCHER" : {
+		"ATK" : 5,
+		"DEF" : 5,
+		"SPD" : 30,
+		"LCK" : 30,
+		"HP" : 15,
+		"NAME" : "Watcher",
+		"SPRITE" : {
+			"x" : 4,
+			"y" : 3
+		}
+	},
+	"DESTROYER" : {
+		"ATK" : 0,
+		"DEF" : 0,
+		"SPD" : 0,
+		"LCK" : 0,
+		"HP" : 0,
+		"NAME" : "Destroyer",
+		"SPRITE" : {
+			"x" : 5,
+			"y" : 4
+		}
+	},
+	"PSYCHICGOD" : {
+		"ATK" : 0,
+		"DEF" : 0,
+		"SPD" : 0,
+		"LCK" : 0,
+		"HP" : 0,
+		"NAME" : "Psychic God",
+		"SPRITE" : {
+			"x" : 5,
+			"y" : 5
+		}
+	}
+}

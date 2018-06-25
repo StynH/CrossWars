@@ -1,0 +1,22 @@
+{
+	"morning" : [
+		"$player? You're up early.\nIt's good to know our commander\nand chief is up and ready whenever\nhe is needed!",
+		"Ah $player, shouldn't you still be in bed at this time?\nMe? Well I, errr, no, it's a long story.",
+		"Good morning, $player, up early I see.\nBe sure to eat breakfast before\ngoing on a mission."
+	],
+	"afternoon" : [
+		"Good afternoon $player.\nIf you need anything, I can make it!\nWell, as long as we have the\nenergy for it. And the blueprint.\nSo technically not anything...?",
+		"$player, have you considered making more\nweapons? Our troops can always use\nmore equipment! Or I'm just obsessed\nwith creating...?",
+		"$player! I was wondering if you knew if\nthere was a possibility we could somehow create\nthese worldbound items? Oh, you don't know either."
+	],
+	"evening" : [
+		"Good evening $player.\nYou can always find me here\nif you ever need me.\nDon't make it too late today, okay?",
+		"Oh, $player, I didn't see you there.\n Shouldn't you be relaxing at this time?",
+		"Ah $player, good to see you.\nIt gets kinda lonely at this time of day.\nThanks for visiting!"
+	],
+	"night" : [
+		"Huh, wah, $player?!\nNo I wasn't snoozing off, I was just,\nehhh, relaxing my eyelids.",
+		"$player? Is that you? Are you still awake?\nDon't make it too late.\nWe need your strategic mind to be fit\nand ready tommorow.",
+		"$player, you sure have perseverance\nin what you do.\nSheez, I can barely lift my eyelids...\nBe sure to get enough sleep!"
+	]
+}

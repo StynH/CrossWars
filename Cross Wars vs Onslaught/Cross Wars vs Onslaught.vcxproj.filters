@@ -1,0 +1,615 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{b666df58-8f38-44f4-8aa9-2125a4cc7250}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Map">
+      <UniqueIdentifier>{0232fb8d-60d6-42df-abf9-d785ba021457}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{eaad5745-aeea-428b-8b1b-8b9aa2e5fac4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Levels">
+      <UniqueIdentifier>{1e94ea03-e993-4768-94aa-e8e7b1ce4af4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Screens">
+      <UniqueIdentifier>{9a6f5184-0777-4312-8893-89644c15ec25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entities">
+      <UniqueIdentifier>{1cf58ff0-5bbb-4fa0-ad22-29ffbf1c2667}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{0c313609-45f6-427b-8e2c-00e5d9d80698}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Items">
+      <UniqueIdentifier>{0e6e108f-b81d-4781-a1d1-70607f2ba5ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lua">
+      <UniqueIdentifier>{8942b3b6-12cf-40ab-8807-9137b2dd212f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Camera">
+      <UniqueIdentifier>{bf76202c-094b-4eb4-9bf7-934411f92f52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Helpers">
+      <UniqueIdentifier>{f8c1f69f-f26d-4445-955c-74a32580fd69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hud">
+      <UniqueIdentifier>{c0784581-8bf3-496f-a32d-d9781649d80a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Screens\SubScreens">
+      <UniqueIdentifier>{52a4e509-e947-4578-8297-da4595dc42c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Player">
+      <UniqueIdentifier>{1a145d14-b7b2-4d03-b15b-bdb44677de23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Screens\Template">
+      <UniqueIdentifier>{48c2e8dd-7a18-4c19-b67f-e3376e9c17cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Menu">
+      <UniqueIdentifier>{1acad3d2-c2da-4a84-b70b-5a1610322f45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Screens\Graphical">
+      <UniqueIdentifier>{111807a4-58e4-44dd-be38-62a2893e5b58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\States">
+      <UniqueIdentifier>{0eccb18b-7afc-445d-9bc8-d0fc3336c9a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Levels\Objectives">
+      <UniqueIdentifier>{144c1035-9d53-4a9b-a2f3-d833477f217d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Artificial Intelligence">
+      <UniqueIdentifier>{66eabe98-792d-4163-912d-d63206531bac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entities\Skills">
+      <UniqueIdentifier>{67ea227f-3215-42f0-8319-9a07ce5ee3cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{326dbd34-5f18-4810-8c8f-114d3110a855}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sound">
+      <UniqueIdentifier>{8defeac8-8fd8-4026-a7a3-7c493448e8ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Screens\Barracks">
+      <UniqueIdentifier>{538131a2-dc03-40f8-b6dc-4b6956cfaace}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Core.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureManager.cpp">
+      <Filter>Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>Map</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenManager.cpp">
+      <Filter>Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Singleton.h">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Tile.cpp">
+      <Filter>Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>Items</Filter>
+    </ClCompile>
+    <ClCompile Include="Weapon.cpp">
+      <Filter>Items</Filter>
+    </ClCompile>
+    <ClCompile Include="LuaManager.cpp">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemManager.cpp">
+      <Filter>Items</Filter>
+    </ClCompile>
+    <ClCompile Include="Unit.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="BattleScreen.cpp">
+      <Filter>Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="Character.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraManager.cpp">
+      <Filter>Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceManager.cpp">
+      <Filter>Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogueScreen.cpp">
+      <Filter>Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="GameTime.cpp">
+      <Filter>Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="TextContainer.cpp">
+      <Filter>Hud</Filter>
+    </ClCompile>
+    <ClCompile Include="TextSanitizer.cpp">
+      <Filter>Hud</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelScreen.cpp">
+      <Filter>Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="Cursor.cpp">
+      <Filter>Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="MapManager.cpp">
+      <Filter>Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Chapter.cpp">
+      <Filter>Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="BattleCharScreen.cpp">
+      <Filter>Screens\SubScreens</Filter>
+    </ClCompile>
+    <ClCompile Include="UnitClass.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="UnitManager.cpp">
+      <Filter>Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="Folders.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="EventLogger.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerManager.cpp">
+      <Filter>Player</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScreen.cpp">
+      <Filter>Screens\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="FloodFill.cpp">
+      <Filter>Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="UIButton.cpp">
+      <Filter>Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScreenOverlay.cpp">
+      <Filter>Screens\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="UnitMenuOverlay.cpp">
+      <Filter>Screens\SubScreens</Filter>
+    </ClCompile>
+    <ClCompile Include="CharScreen.cpp">
+      <Filter>Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="BattleOutcome.cpp">
+      <Filter>Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="BattleOutcomeScreen.cpp">
+      <Filter>Screens\SubScreens</Filter>
+    </ClCompile>
+    <ClCompile Include="StateMachine.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="KillBossObjective.cpp">
+      <Filter>Levels\Objectives</Filter>
+    </ClCompile>
+    <ClCompile Include="KillAllObjective.cpp">
+      <Filter>Levels\Objectives</Filter>
+    </ClCompile>
+    <ClCompile Include="AI.cpp">
+      <Filter>Artificial Intelligence</Filter>
+    </ClCompile>
+    <ClCompile Include="Node.cpp">
+      <Filter>Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="FlagManager.cpp">
+      <Filter>Player</Filter>
+    </ClCompile>
+    <ClCompile Include="BattleDialogueOverlay.cpp">
+      <Filter>Screens\SubScreens</Filter>
+    </ClCompile>
+    <ClCompile Include="UnitSkill.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="InnerMight.cpp">
+      <Filter>Entities\Skills</Filter>
+    </ClCompile>
+    <ClCompile Include="UltimateLeader.cpp">
+      <Filter>Entities\Skills</Filter>
+    </ClCompile>
+    <ClCompile Include="UnitOverviewScreen.cpp">
+      <Filter>Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="BarracksScreen.cpp">
+      <Filter>Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="MusicPlayer.cpp">
+      <Filter>Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="ArmyScreen.cpp">
+      <Filter>Screens\Barracks</Filter>
+    </ClCompile>
+    <ClCompile Include="Battle.cpp">
+      <Filter>Core\States</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialogue.cpp">
+      <Filter>Core\States</Filter>
+    </ClCompile>
+    <ClCompile Include="AddUnit.cpp">
+      <Filter>Core\States</Filter>
+    </ClCompile>
+    <ClCompile Include="ChapterScreen.cpp">
+      <Filter>Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="ShowChapter.cpp">
+      <Filter>Core\States</Filter>
+    </ClCompile>
+    <ClCompile Include="AStar.cpp">
+      <Filter>Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="MissionScreen.cpp">
+      <Filter>Screens\Barracks</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemTradeOverlay.cpp">
+      <Filter>Screens\SubScreens</Filter>
+    </ClCompile>
+    <ClCompile Include="GameoverScreen.cpp">
+      <Filter>Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuScreen.cpp">
+      <Filter>Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="IntermissionScreen.cpp">
+      <Filter>Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="Intermission.cpp">
+      <Filter>Core\States</Filter>
+    </ClCompile>
+    <ClCompile Include="UnitSelectScreen.cpp">
+      <Filter>Screens\SubScreens</Filter>
+    </ClCompile>
+    <ClCompile Include="RecieveScreen.cpp">
+      <Filter>Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="AddItem.cpp">
+      <Filter>Core\States</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemCreationScreen.cpp">
+      <Filter>Screens\Barracks</Filter>
+    </ClCompile>
+    <ClCompile Include="TypeWriter.cpp">
+      <Filter>Screens\Graphical</Filter>
+    </ClCompile>
+    <ClCompile Include="StorageScreen.cpp">
+      <Filter>Screens\Barracks</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemActionMenu.cpp">
+      <Filter>Screens\SubScreens</Filter>
+    </ClCompile>
+    <ClCompile Include="Useable.cpp">
+      <Filter>Items</Filter>
+    </ClCompile>
+    <ClCompile Include="UnlockMission.cpp">
+      <Filter>Core\States</Filter>
+    </ClCompile>
+    <ClCompile Include="ArenaScreen.cpp">
+      <Filter>Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="ArenaUnitSelectScreen.cpp">
+      <Filter>Screens\Barracks</Filter>
+    </ClCompile>
+    <ClCompile Include="Trigger.cpp">
+      <Filter>Map</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogueOverlay.cpp">
+      <Filter>Screens\SubScreens</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TextureManager.h">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>Map</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenManager.h">
+      <Filter>Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Tile.h">
+      <Filter>Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Include.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>Items</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapon.h">
+      <Filter>Items</Filter>
+    </ClInclude>
+    <ClInclude Include="LuaManager.h">
+      <Filter>Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemManager.h">
+      <Filter>Items</Filter>
+    </ClInclude>
+    <ClInclude Include="Unit.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="BattleScreen.h">
+      <Filter>Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="Character.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraManager.h">
+      <Filter>Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceManager.h">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogueScreen.h">
+      <Filter>Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="GameTime.h">
+      <Filter>Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="TextContainer.h">
+      <Filter>Hud</Filter>
+    </ClInclude>
+    <ClInclude Include="TextSanitizer.h">
+      <Filter>Hud</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelScreen.h">
+      <Filter>Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="Cursor.h">
+      <Filter>Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="Chapter.h">
+      <Filter>Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="MapManager.h">
+      <Filter>Map</Filter>
+    </ClInclude>
+    <ClInclude Include="BattleCharScreen.h">
+      <Filter>Screens\SubScreens</Filter>
+    </ClInclude>
+    <ClInclude Include="UnitClass.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="UnitManager.h">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Folders.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="MathHelper.h">
+      <Filter>Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="EventLogger.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerManager.h">
+      <Filter>Player</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScreen.h">
+      <Filter>Screens\Template</Filter>
+    </ClInclude>
+    <ClInclude Include="CharacterSprite.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Spawnpoint.h">
+      <Filter>Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="FloodFill.h">
+      <Filter>Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="Event.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Swapvector.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="UIButton.h">
+      <Filter>Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScreenOverlay.h">
+      <Filter>Screens\Template</Filter>
+    </ClInclude>
+    <ClInclude Include="UnitMenuOverlay.h">
+      <Filter>Screens\SubScreens</Filter>
+    </ClInclude>
+    <ClInclude Include="MovingSprite.h">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="TurnIndicator.h">
+      <Filter>Screens\Graphical</Filter>
+    </ClInclude>
+    <ClInclude Include="CharScreen.h">
+      <Filter>Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="BattleHelper.h">
+      <Filter>Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="BattleOutcome.h">
+      <Filter>Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="BattleOutcomeScreen.h">
+      <Filter>Screens\SubScreens</Filter>
+    </ClInclude>
+    <ClInclude Include="StateMachine.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="GameState.h">
+      <Filter>Core\States</Filter>
+    </ClInclude>
+    <ClInclude Include="MapObjective.h">
+      <Filter>Levels\Objectives</Filter>
+    </ClInclude>
+    <ClInclude Include="KillBossObjective.h">
+      <Filter>Levels\Objectives</Filter>
+    </ClInclude>
+    <ClInclude Include="KillAllObjective.h">
+      <Filter>Levels\Objectives</Filter>
+    </ClInclude>
+    <ClInclude Include="AI.h">
+      <Filter>Artificial Intelligence</Filter>
+    </ClInclude>
+    <ClInclude Include="MapHelper.h">
+      <Filter>Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="AStar.h">
+      <Filter>Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="Heap.h">
+      <Filter>Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="Node.h">
+      <Filter>Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="GameFlag.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="FlagManager.h">
+      <Filter>Player</Filter>
+    </ClInclude>
+    <ClInclude Include="BattleDialogueOverlay.h">
+      <Filter>Screens\SubScreens</Filter>
+    </ClInclude>
+    <ClInclude Include="UnitSkill.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="InnerMight.h">
+      <Filter>Entities\Skills</Filter>
+    </ClInclude>
+    <ClInclude Include="UltimateLeader.h">
+      <Filter>Entities\Skills</Filter>
+    </ClInclude>
+    <ClInclude Include="UnitOverviewScreen.h">
+      <Filter>Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="ShockWave.h">
+      <Filter>Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="MindBend.h">
+      <Filter>Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="BarracksScreen.h">
+      <Filter>Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="MusicPlayer.h">
+      <Filter>Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="ArmyScreen.h">
+      <Filter>Screens\Barracks</Filter>
+    </ClInclude>
+    <ClInclude Include="Battle.h">
+      <Filter>Core\States</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialogue.h">
+      <Filter>Core\States</Filter>
+    </ClInclude>
+    <ClInclude Include="AddUnit.h">
+      <Filter>Core\States</Filter>
+    </ClInclude>
+    <ClInclude Include="ChapterScreen.h">
+      <Filter>Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="ShowChapter.h">
+      <Filter>Core\States</Filter>
+    </ClInclude>
+    <ClInclude Include="BurnAway.h">
+      <Filter>Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="BattleTransition.h">
+      <Filter>Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="CRTV.h">
+      <Filter>Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="MissionScreen.h">
+      <Filter>Screens\Barracks</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemTradeOverlay.h">
+      <Filter>Screens\SubScreens</Filter>
+    </ClInclude>
+    <ClInclude Include="GameoverScreen.h">
+      <Filter>Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuScreen.h">
+      <Filter>Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="IntermissionScreen.h">
+      <Filter>Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="Intermission.h">
+      <Filter>Core\States</Filter>
+    </ClInclude>
+    <ClInclude Include="RecieveScreen.h">
+      <Filter>Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="AddItem.h">
+      <Filter>Core\States</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemCreationScreen.h">
+      <Filter>Screens\Barracks</Filter>
+    </ClInclude>
+    <ClInclude Include="UnitSelectScreen.h">
+      <Filter>Screens\SubScreens</Filter>
+    </ClInclude>
+    <ClInclude Include="TypeWriter.h">
+      <Filter>Screens\Graphical</Filter>
+    </ClInclude>
+    <ClInclude Include="StorageScreen.h">
+      <Filter>Screens\Barracks</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemActionMenu.h">
+      <Filter>Screens\SubScreens</Filter>
+    </ClInclude>
+    <ClInclude Include="Useable.h">
+      <Filter>Items</Filter>
+    </ClInclude>
+    <ClInclude Include="UnlockMission.h">
+      <Filter>Core\States</Filter>
+    </ClInclude>
+    <ClInclude Include="ArenaScreen.h">
+      <Filter>Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="ArenaUnitSelectScreen.h">
+      <Filter>Screens\Barracks</Filter>
+    </ClInclude>
+    <ClInclude Include="Trigger.h">
+      <Filter>Map</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogueOverlay.h">
+      <Filter>Screens\SubScreens</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

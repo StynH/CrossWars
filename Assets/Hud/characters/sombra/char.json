@@ -1,0 +1,9 @@
+{
+	"Name" : "Sombra",
+	"Description" : "Apparently a notorious hacker from a world that fought with an evil robotic force.\n\nShe handles the creation of items now.",
+	"ATK" : 35,
+	"DEF" : 25,
+	"SPD" : 70,
+	"LCK" : 25,
+	"HP" : 5
+}

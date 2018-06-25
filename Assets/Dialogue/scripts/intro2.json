@@ -1,0 +1,235 @@
+{
+	"background" : "grass",
+	"description" : "The lone warrior walks into a dense forest. No memories and no goal. In front of him, a wide plain surrounded be trees. Can he find any clues here?",
+	"parts" : [
+		{
+			"speaker" : "player",
+			"listener" : "none",
+			"text" : "Argh....heh....",
+			"active" : "speaker",
+			"changemusic" : "Meeting of the Unknown.wav"
+		},
+		{
+			"speaker" : "player",
+			"listener" : "none",
+			"text" : "I've gotten out of shape since...since...eh...",
+			"active" : "speaker"
+		},
+		{
+			"speaker" : "player",
+			"listener" : "none",
+			"text" : "Where am I actually? Hello, sir, can I, eh, ask you something?",
+			"active" : "speaker"
+		},
+		{
+			"speaker" : "player",
+			"listener" : "tonystark",
+			"text" : "What the...? Who.. Where.. Wha...?",
+			"active" : "listener"
+		},
+		{
+			"speaker" : "player",
+			"listener" : "tonystark",
+			"text" : "Yes, ehm, I was wondering if you could tell me where I am currently? I know it's a weird question.",
+			"active" : "speaker"
+		},
+		{
+			"speaker" : "player",
+			"listener" : "tonystark",
+			"text" : "Ehem, well thats a completely legit question. It's only normal you came to me for such advice! You see, we are in...",
+			"active" : "listener"
+		},
+		{
+			"speaker" : "player",
+			"listener" : "tonystark",
+			"text" : "A forest! If you have a sharp eye like me you notice that from the many trees!",
+			"active" : "listener"
+		},
+		{
+			"speaker" : "player",
+			"listener" : "tonystark",
+			"text" : "Well, yes, I was aware of that. I meant the name. This area does have a name right?",
+			"active" : "speaker"
+		},
+		{
+			"speaker" : "player",
+			"listener" : "tonystark",
+			"text" : "Ah yes! I knew that, I was just testing you. Let's see this forest...ehm...err...",
+			"active" : "listener"
+		},
+		{
+			"speaker" : "player",
+			"listener" : "tonystark",
+			"text" : "It's called...'Ever So Green Forest'.",
+			"active" : "listener"
+		},
+		{
+			"speaker" : "player",
+			"listener" : "tonystark",
+			"text" : "No no no, hehe, wait no, ehm.",
+			"active" : "listener"
+		},
+		{
+			"speaker" : "player",
+			"listener" : "tonystark",
+			"text" : "...You know what, I already remembered... Thanks for your help.",
+			"active" : "speaker"
+		},
+		{
+			"speaker" : "player",
+			"listener" : "tonystark",
+			"text" : "Wait, wait, wait! Don't go yet.",
+			"active" : "listener"
+		},
+		{
+			"speaker" : "player",
+			"listener" : "tonystark",
+			"text" : "...What.",
+			"active" : "speaker"
+		},
+		{
+			"speaker" : "player",
+			"listener" : "tonystark",
+			"text" : "Can you tell me what this place is called, cause I have no freaking clue.",
+			"active" : "listener"
+		},
+		{
+			"speaker" : "tonystark",
+			"listener" : "steverogers",
+			"text" : "Tony? Are you talking to yourself again? You need to prepare!",
+			"active" : "listener"
+		},
+		{
+			"speaker" : "tonystark",
+			"listener" : "steverogers",
+			"text" : "Oh, Steve, well no, I was talking to this young fellow. He needed me advice!",
+			"active" : "speaker"
+		},
+		{
+			"speaker" : "tonystark",
+			"listener" : "steverogers",
+			"text" : "What? Who would ever need your advice, hold on.",
+			"active" : "listener"
+		},
+		{
+			"speaker" : "player",
+			"listener" : "steverogers",
+			"text" : "Hmmmm, I don't recognize you. You look confused. Soldier, what's your name.",
+			"active" : "listener"
+		},
+		{
+			"speaker" : "player",
+			"listener" : "steverogers",
+			"text" : "My name? It's $player.",
+			"active" : "speaker"
+		},
+		{
+			"speaker" : "player",
+			"listener" : "steverogers",
+			"text" : "$player? Hmmm... No, that name doesn't say anything to me.",
+			"active" : "listener"
+		},
+		{
+			"speaker" : "player",
+			"listener" : "steverogers",
+			"text" : "$player, does the word 'Apophis', mean anything to you?",
+			"active" : "listener"
+		},
+		{
+			"speaker" : "player",
+			"listener" : "steverogers",
+			"text" : "Apophis? No, it doesn't. To be honest with you, I don't remember much before yesterday.",
+			"active" : "speaker"
+		},
+		{
+			"speaker" : "player",
+			"listener" : "steverogers",
+			"text" : "Amnesia? That kind of explains your bewildered look. Either that or you're lying.",
+			"active" : "listener"
+		},
+		{
+			"speaker" : "player",
+			"listener" : "steverogers",
+			"text" : "Oh no, no, no! I'm not the enemy. If you're after them, I've been running away from them since yesterday.",
+			"active" : "speaker"
+		},
+		{
+			"speaker" : "player",
+			"listener" : "steverogers",
+			"text" : "What?! You actually succesfully kept Apophis' warriors off your back for 2 days? Alone?",
+			"active" : "listener"
+		},
+		{
+			"speaker" : "player",
+			"listener" : "steverogers",
+			"text" : "Yes, and well, now you mention it... There was one of them chasing me just now.",
+			"active" : "speaker"
+		},
+		{
+			"speaker" : "player",
+			"listener" : "steverogers",
+			"text" : "That means we don't have much time. Come with us, $player. Fight with us for now.",
+			"active" : "listener"
+		},
+		{
+			"speaker" : "player",
+			"listener" : "tonystark",
+			"text" : "Alright, eh, what is your name?",
+			"active" : "speaker"
+		},
+		{
+			"speaker" : "player",
+			"listener" : "steverogers",
+			"text" : "Steve. Steve Rogers.",
+			"active" : "listener"
+		},
+		{
+			"speaker" : "player",
+			"listener" : "tonystark",
+			"text" : "Alright Steve, let's work together on this one.",
+			"active" : "speaker"
+		},
+		{
+			"speaker" : "player",
+			"listener" : "tonystark",
+			"text" : "Hohohohold up there.",
+			"active" : "listener"
+		},
+		{
+			"speaker" : "player",
+			"listener" : "tonystark",
+			"text" : "Tony, Stark. As our new, 3rd member, it is only normal that I brief you on our mission! It's a real tough one though!",
+			"active" : "listener"
+		},
+		{
+			"speaker" : "player",
+			"listener" : "tonystark",
+			"text" : "We lost our HQ. We can't really remember how. What we do now is that it's currently in enemy hands!",
+			"active" : "listener"
+		},
+		{
+			"speaker" : "player",
+			"listener" : "tonystark",
+			"text" : "It is now your duty too, to retake this fortress!!!",
+			"active" : "listener"
+		},
+		{
+			"speaker" : "tonystark",
+			"listener" : "steverogers",
+			"text" : "Yeah, and we don't have all day, Tony. There is somebody in there waiting.",
+			"active" : "listener"
+		},
+		{
+			"speaker" : "player",
+			"listener" : "steverogers",
+			"text" : "$player, stay focused and follow our direction. Eliminate any enemy in sight.",
+			"active" : "listener"
+		},
+		{
+			"speaker" : "player",
+			"listener" : "steverogers",
+			"text" : "Let's move out team!",
+			"active" : "listener"
+		}
+	]
+}

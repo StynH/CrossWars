@@ -1,0 +1,22 @@
+{
+	"parts" : [
+		{
+			"speaker" : "player",
+			"listener" : "none",
+			"text" : "Over there, I can see someone!",
+			"active" : "speaker"
+		},
+		{
+			"speaker" : "player",
+			"listener" : "tonystark",
+			"text" : "Alright, let's approach with caution!",
+			"active" : "listener"
+		},
+		{
+			"speaker" : "player",
+			"listener" : "steverogers",
+			"text" : "Be sure to analyse the enemy before engaging, pick your targets wisely!",
+			"active" : "listener"
+		}
+	]
+}

@@ -1,0 +1,50 @@
+{
+	"background" : "black",
+	"description" : "Somewhere, sometime, another side, another story.",
+	"parts" : [
+		{
+			"speaker" : "unknown",
+			"listener" : "unknown",
+			"text" : ".......",
+			"active" : "listener",
+			"changemusic" : "Dark Past.wav"
+		},
+		{
+			"speaker" : "unknown",
+			"listener" : "unknown",
+			"text" : "...........",
+			"active" : "listener"
+		},
+		{
+			"speaker" : "unknown",
+			"listener" : "unknown",
+			"text" : "Wake up.",
+			"active" : "listener"
+		},
+		{
+			"speaker" : "unknown",
+			"listener" : "unknown",
+			"text" : "It may seem weird but, I need you.\nYou are our only hope right now.",
+			"active" : "listener"
+		},
+				{
+			"speaker" : "unknown",
+			"listener" : "unknown",
+			"text" : "Ensure our legacy, I beg you.\nRgggh....",
+			"active" : "listener"
+		},
+		{
+			"speaker" : "unknown",
+			"listener" : "unknown",
+			"text" : "I...feel weak...\nEmilia...Goliath...\nForgive me.",
+			"active" : "listener"
+		},
+		{
+			"speaker" : "unknown",
+			"listener" : "unknown",
+			"text" : "The future is corrupted, in memories far away...",
+			"active" : "listener",
+			"stopmusic" : true
+		}
+	]
+}

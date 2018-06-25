@@ -1,0 +1,9 @@
+{
+	"Name" : "Joe",
+	"Description" : "",
+	"ATK" : 60,
+	"DEF" : 30,
+	"SPD" : 20,
+	"LCK" : 0,
+	"HP" : 40
+}

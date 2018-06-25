@@ -1,0 +1,35 @@
+I had to remove the music from the game because of file size reasons.
+
+---GRAPHICS---
+Menu Graphics - Me
+HUD Graphics - Me
+Map Graphics - Fire Emblem 7
+Map Unit sprites - Fire Emblem 7
+
+Marvel Characters - Marvel vs Capcom 2
+Main Hero graphics - Rival Schools
+
+Brian - Me
+Joe - found online somewhere
+Diana - Me
+Sombra - Sprite by me, character from Overwatch
+All other unit battle sprites - Marvel vs Capcom 2
+
+---MUSIC---
+Prepare for the Assault.wav
+The Unforgiving.wav - Me
+Blank Spots.wav - Pokemon Mystery Dungeon
+LetTheAssaultBegin.wav - Rayman
+CanYouFeelIt.wav + FallenHero.wav - Fantasy Pinball
+All other music - Kingdom Hearts 2 
+
+All menu/cursor sounds - Kingdom Hearts 1 + 2
+
+---SHADERS---
+All found online - Edited by me to work
+
+---CODE---
+Singleton Template - found online
+A* Algorithm - from a previous project
+Libraries - Not by me
+All other code - Me

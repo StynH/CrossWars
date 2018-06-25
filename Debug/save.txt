@@ -1,0 +1,74 @@
+{
+    "activeunits": [
+        {
+            "ARENAKILLS": 0,
+            "ATK": 8,
+            "CHAR": "player",
+            "CLASS": "FIGHTER",
+            "DEF": 4,
+            "EXP": 0,
+            "HP": 19,
+            "INV": [
+                "0x0000A2"
+            ],
+            "LCK": 4,
+            "LVL": 1,
+            "MOV": 5,
+            "SKILLS": [
+                "Ultimate Leader",
+                "Inner Might"
+            ],
+            "SPD": 6
+        }
+    ],
+    "chapters": [
+        "chapter2"
+    ],
+    "createableitems": [
+        "0x000CR1",
+        "0x000HO1",
+        "0x000HO2",
+        "0x000HO3"
+    ],
+    "energy": 12500,
+    "falseflags": null,
+    "inactiveunits": [
+        {
+			"ARENAKILLS": 0,
+            "ATK": 4,
+            "CHAR": "steverogers",
+            "CLASS": "SOLDIER",
+            "DEF": 7,
+            "EXP": 0,
+            "HP": 18,
+            "INV": [
+                "0x0000A4"
+            ],
+            "LCK": 1,
+            "LVL": 1,
+            "MOV": 4,
+            "SKILLS": null,
+            "SPD": 7
+        },
+        {
+			"ARENAKILLS": 0,
+            "ATK": 6,
+            "CHAR": "tonystark",
+            "CLASS": "IRONMAN",
+            "DEF": 3,
+            "EXP": 0,
+            "HP": 20,
+            "INV": [
+                "0x000PA1"
+            ],
+            "LCK": 2,
+            "LVL": 1,
+            "MOV": 6,
+            "SKILLS": null,
+            "SPD": 12
+        }
+    ],
+    "playername": "Zero",
+    "storage": null,
+    "trueflags": null
+}

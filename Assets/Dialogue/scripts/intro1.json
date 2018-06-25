@@ -1,0 +1,43 @@
+{
+	"background" : "white",
+	"description" : "Into the light.",
+	"parts" : [
+		{
+			"speaker" : "unknown",
+			"listener" : "none",
+			"text" : "Huff...Huff...",
+			"active" : "speaker",
+			"stopmusic" : true
+		},
+		{
+			"speaker" : "unknown",
+			"listener" : "none",
+			"text" : "Hnnnnng...I'm almost there...",
+			"active" : "speaker"
+		},
+		{
+			"speaker" : "unknown",
+			"listener" : "none",
+			"text" : "There...huff...is no time to lose.",
+			"active" : "speaker"
+		},
+		{
+			"speaker" : "unknown",
+			"listener" : "none",
+			"text" : "Oh man, my legs feel like they can give out at\nany moment...!",
+			"active" : "speaker"
+		},
+		{
+			"speaker" : "unknown",
+			"listener" : "none",
+			"text" : "I wonder if that thing is still following me...?",
+			"active" : "speaker"
+		},
+		{
+			"speaker" : "unknown",
+			"listener" : "none",
+			"text" : "There! The forest clearing!",
+			"active" : "speaker"
+		}
+	]
+}
